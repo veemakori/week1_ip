@@ -1,6 +1,6 @@
 ## Project Name
 
-Verah Makori portfolio
+My portfolio
 
 ## Author Name
 
@@ -8,7 +8,7 @@ Verah Makori
 
 ## Description of Project
 
-Description of my portfolio
+Description of my portfolio and my skill set
 
 ## Technologies Used
 - HTML
