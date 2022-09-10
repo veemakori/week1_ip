@@ -1,0 +1,112 @@
+body{
+	background-color: #f9f9f9;
+	font-family: "Crimson Text";
+}
+
+.main{
+	background: #fff;
+}
+ 
+/* style for home page body */
+
+.home-description{
+	font-style: italic;
+	font-weight: 600;
+	font-family: "Crimson";
+	font-size: 19px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    line-height: 29px;
+
+}
+@media (min-width: 778px)
+{
+		.main{
+			height: 100vh;
+			overflow: hidden;
+		}
+
+
+		.btn-group-vertical{
+    		padding: 20px 87.5px;
+    	}
+
+    	.info{
+			font-family: "Crimson";
+			line-height: 28px;
+		    font-size: 16px;
+		    padding-top: 15px;
+		    padding-right: 50px;
+		}
+		
+		.home-description{
+			padding-right: 90px;
+			padding-left: 90px;
+			
+		}
+}
+ /* syle for buttons */
+.btn{
+	padding: 10px 60px;
+	height: 45px;
+	font-size: 16px;
+}
+
+.btn-group-vertical{
+    font-family: "Josefin Sans";    
+}
+
+.btn-data{
+	background-color: rgb(188, 217, 233);
+	color: #111;
+	font-style: italic;
+	border: 1px solid #111;
+	border-radius: 0px !important;
+	transition: all 0.4s ease-in-out;
+	margin-bottom: 20px;
+	font-family: "Crimson";
+	font-size: 13px;
+	}
+
+.btn-data:hover{
+	color: #fff;
+	background-color: #bb9e7d;
+    border-color: #bb9e7d;}
+
+
+p{
+    color: #585757;
+    font-size: 16px;
+        
+}
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -5px;
+}
+
+#watermark{
+	position: relative;
+}
+
+.back{
+    width: 170px;    
+    font-family: "Crimson";
+    font-size: 17px;
+    font-style: italic;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin-top: 70px;	 
+}
+
+.back i{
+	margin-left: -40px;
+    margin-right: 17px;
+    font-size: 20px;
+}
